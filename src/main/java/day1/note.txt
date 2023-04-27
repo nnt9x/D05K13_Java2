@@ -19,3 +19,17 @@ a. Tạo 2 đối tượng hình tròn,
 sau dó in ra chu vi, diện tích
 b. Tạo 1 mảng gồm 5 hình tròn, in ra hình có chu vi lớn
 nhất.
+
+3. Tạo 1 class Student gồm có thuộc tính:
+- id: long (ko để trống)
+- name: String (ko để trống)
+- mark: long [1-100]
+
+Tạo 2 phương thức khởi tạo
++ Student(id, name)
++ Student(id, name, mark)
+
+a. Tạo 1 mảng gồm 10 sinh viên.
+b. In ra mảng vừa tạo
+c. In ra điểm trung bình của lớp.
+d. In ra thông tin bạn có diểm cao nhất.

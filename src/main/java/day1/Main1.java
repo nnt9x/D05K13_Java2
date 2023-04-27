@@ -18,6 +18,7 @@ public class Main1 {
             double r = Double.parseDouble(in.nextLine());
             arr[i] = new HinhTron(r);
         }
+        in.close();
         // In ra mang vua nhap
         for (int i = 0; i < 5; i++) {
             System.out.println(arr[i].toString());
