@@ -1,0 +1,20 @@
+1. Tạo 1 class HinhChuNhat có thuộc tính
+- chiều dài: float = 1.0
+- chiều rộng: float = 1.0
+Xây dựng phương thức khởi tạo
++ Mặc đinh - rỗng
++ Đầy đủ tham số
+Xây dựng phương thức tính: chuVi() và dienTich()
+
+2. Tạo 1 class HinhTron có thuộc tính bán kính.
+- bán kính: double = 1.0
+Xây dựng phương thức khởi tạo
++ Mặc định
++ Đầy đủ tham số.
+Hằng số PI mặc định = 3.14
+Xây dựng phương thức tính: chuVi(), dienTich()
+Ghi đè phương thức toString()
+
+a. Tạo 2 đối tượng hình tròn, sau dó in ra chu vi, diện tích
+b. Tạo 1 mảng gồm 5 hình tròn, in ra hình có chu vi lớn
+nhất.
