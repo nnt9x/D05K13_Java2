@@ -13,5 +13,14 @@ thông tin:
 2. Tạo 1 lớp HinhChuNhat, yêu cầu tính được chu vi, diện tích.
 (giá trị mặc định chiều dài, rông = 1.0 và phải là số dương)
 
+- Xác định tên class: HinhChuNhat
+- Thuộc tính: chieuDai, chieuRong (loại bỏ các thuộc tính dẫn xuất) (>0)
++ Phương thức: chuVi(), dienTich(), ghi đè thuộc tính toString()
++ Phương thức khởi tạo ??
+- Không tham số?
+- Có tham số
 
+Nếu nhập vào cạnh âm hoặc bằng 0 -> thì làm gì???
+-> báo lỗi exception.
 
+3. Taọ 1 class HinhThangCan, yêu cầu tính chu vi, diện tích.
