@@ -1,0 +1,17 @@
+1. Tạo 1 lớp Student gồm có các
+thông tin:
+- id (chỉ cho phép gán trị qua constructor, ko gan lai)
+- name
+- mark
+
++ Xây dựng các phương thức khởi tạo
++ Phương thức khơi tạo mặc đinh ~ rỗng
++ Phương thức khởi tạo có tham số.
+
++ Setter, getter và ghi đè lại toString()
+
+2. Tạo 1 lớp HinhChuNhat, yêu cầu tính được chu vi, diện tích.
+(giá trị mặc định chiều dài, rông = 1.0 và phải là số dương)
+
+
+
