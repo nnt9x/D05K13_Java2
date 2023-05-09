@@ -1,0 +1,9 @@
+Viết 1 chương trình tính chu vi, diên
+tích của các hình 2D.
+
+- Hình tròn
+- Hình vuông
+- Hình chữ nhât
+-> Sau này có thể mở rộng, mà ko
+cần sửa lại code phần chương trình
+chính quá nhiều.???
