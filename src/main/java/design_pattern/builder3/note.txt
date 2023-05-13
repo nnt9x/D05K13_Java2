@@ -1,0 +1,17 @@
+Menu có 10 món:
+1. Trà đá
+2. Bánh mì thập cẩm 20k
+3. Phở
+4. Bún
+5. Coca
+6. Cafe
+7. Xôi
+8. Kem
+9. Trà sữa
+10. Cháo
+
+
+Khách order đồ.
+-> Tạo đối tượng order.
+VD: chọn 2 bánh mì -> new Order(null, 2, null....)
+=> phức tạp => cần áp dụng Builder.

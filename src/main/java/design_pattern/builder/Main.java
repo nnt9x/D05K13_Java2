@@ -12,7 +12,6 @@ public class Main {
 
         System.out.println(house);
 
-
         House house2 = new HouseBuilder()
                 .setRooms(3)
                 .setDoors(2)
