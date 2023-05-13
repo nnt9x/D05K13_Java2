@@ -34,6 +34,10 @@ public class HinhCau implements IHinhHoc3D{
         return Math.PI * banKinh * banKinh * banKinh * 4 / 3;
     }
 
+    public double dienTichXungQuanh() {
+        return Math.PI * banKinh * banKinh * 4;
+    }
+
     @Override
     public String toString() {
         return "HinhCau{" +
@@ -42,4 +46,5 @@ public class HinhCau implements IHinhHoc3D{
                 ", theTich=" + theTich() +
                 '}';
     }
+
 }

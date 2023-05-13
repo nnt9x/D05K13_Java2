@@ -13,10 +13,16 @@ public class Main {
         hinh.add(hinhLapPhuong);
         hinh.add(hinhLapPhuong1);
 
-        // In ra thong tin -> the tich tung hinh
-        for (IHinhHoc3D h : hinh) {
-            System.out.println(h);
-        }
+        // Stream: lọc ra 2 hình có thể tích lớn nhất
+        hinh.stream().sorted((h1, h2) -> {
+            if (h1.theTich() > h2.theTich()) {
+                return -1;
+            } else if (h1.theTich() < h2.theTich()) {
+                return 1;
+            } else {
+                return 0;
+            }
+        }).limit(2).forEach(System.out::println);
 
     }
 }
