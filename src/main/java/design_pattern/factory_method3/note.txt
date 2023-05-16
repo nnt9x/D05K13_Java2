@@ -1,0 +1,35 @@
+Viết 1 chương trình cho máy pha cafe đa năng.
+Pha được nhiều loại khác nhau:
+- Espresso
+- Đen đá
+- Nâu đá
+- Latte...
+(Mở rộng thông qua cập nhât chương trình)
+
+Người dùng: thao tác chỉ cần chọn loại cafe mong muốn
+và nhấn make().
+
+* class Client - chứa main() có menu
+--- MÁY PHA CÀ PHÊ ---
+1. Espresso
+2. Đen đá
+3. Nâu đá
+4. Latte
+5. Bạc xỉu
+0. Thoát
+
+* interface CaPhe:
++ taoCaPhe()
+
++ class CaPheFactory: cho phép tạo ra các đối tượng
+cà phê cụ thể.
+
+VD: class Espresso:
++ Thuộc tính: loại cafe
++ Áp suất: 5 Pa
++ Nước..
+
+class Đen đá:
++ Thuộc tính: loại cafe gì?
++ Nước nóng: độ ?
+
