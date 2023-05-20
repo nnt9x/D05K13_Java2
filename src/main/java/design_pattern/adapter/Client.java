@@ -22,11 +22,10 @@ public class Client {
         }
     }
     public static void main(String[] args) {
-
-        String song1 = "song1.mp3";
+        
         String song2 = "song2.wav";
         String song3 = "song3.mp4";
-        playSong(song1);
+
         playSong(song2);
         playSong(song3);
 
